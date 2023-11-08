@@ -53,6 +53,8 @@ for i in range(quizNo) :
 
 
 # 내 풀이 수정 - 시간초과
+import sys
+input = sys.stdin.readline
 n, m = map(int, input().split(' '))
 numlist = list(map(int, input().split(' ')))
 sumlist = [0]
